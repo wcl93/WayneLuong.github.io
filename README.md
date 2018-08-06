@@ -1,2 +1,2 @@
 # WayneLuong.github.io
-Copyright Wayne Luong 2015 
+Copyright © Wayne Luong 2018

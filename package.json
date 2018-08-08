@@ -1,0 +1,24 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "Wayne's Portfolio",
+  "main": "main.js",
+  "homepage": "https://wayneluong.github.io/wayneluong.github.io",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./src/scss:dist/css --style compressed",
+    "webpack-p": "webpack ./src/js/main.js ./dist/js/bundle.min.js -p",
+    "webpack-d": "webpack src/js/main.js ./dist/bundle.min.js -d",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "author": "Wayne Luong",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "sass": "^1.10.3"
+  }
+}

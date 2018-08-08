@@ -1,0 +1,48 @@
+#home {
+    @include easeOut;
+    h1 {
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    a {
+        color: #fff;
+        font-size: 30px;
+        padding: 10px 20px 10px 20px;
+        margin: 5px;
+        border: #fff solid 3px;
+        border-radius: 20%;
+        &:hover {
+            color:$secondaryColor;
+            border: $secondaryColor solid 5px;
+            @include easeOut;
+        }
+    }
+    #caption {
+        color:lighten(#30609A,10%);
+    }
+    #down-arrow {
+        border-radius: 50%;
+        border: none;
+        &:hover{
+            color:lighten(#30609A,10%);
+            @include easeOut;
+        }
+        i {
+            animation: translate 2.5s linear infinite; 
+            margin-top:50px;  
+        }
+    }
+}
+
+@keyframes translate {
+    25%{transform: translate(0px, 50px); };
+    50% {transform: translate(0px, 50px); };
+    75% {transform: translate(0px, 50px); };
+    100% {transform: translate(0px, 50px); };
+}

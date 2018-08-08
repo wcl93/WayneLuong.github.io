@@ -1,0 +1,36 @@
+footer {
+    li{
+        list-style-type: none;
+        display: inline;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #4E4E4E;
+        padding: 5px;
+        font-weight: bold;
+        &:hover {
+            color:$secondaryColor;
+            @include easeOut;
+        }
+        .fas {
+            border:solid #4E4E4E 1px;
+            font-size: 25px;
+            padding: 5px 6px 5px 6px;
+            border-radius: 20%;
+            &:hover {
+                border:solid $secondaryColor 1px;
+            }
+        }
+        .fab {
+            border:solid #4E4E4E 1px;
+            font-size: 25px;
+            padding: 5px 6px 5px 6px;
+            border-radius: 20%;
+            &:hover {
+                border:solid $secondaryColor 1px;
+            }
+         }
+    }
+}

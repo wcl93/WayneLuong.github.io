@@ -1,0 +1,233 @@
+/* Widescreens */
+@include mediaXL {
+    #banner {
+        font-size: 20px;
+        height: 20vh;
+        padding-top: 60px;
+    }
+    #contact{
+        height: 70vh;
+    }
+}
+
+/* Desktops & Laptops */
+@include mediaLg {
+    #about {
+        padding-left: 10px;
+        height:70vh;
+    }
+    #contact{
+        height: 60vh;
+    }
+}
+
+/* Tablets & Small Laptops */
+@include mediaMd {
+    #menubtn {
+        /* move to right side */
+        right: 0px;
+        top:0px;
+        margin: 0;
+        border-radius: 0;
+    }
+    .menu-nav {
+        padding-top: 0;
+        right:20;
+    }
+    .menu {
+        width: 100%;
+        height: 100vh;
+        background-color: darken($bgColor, 10%);
+        transform: translate3d(0,-100%,0);
+    }
+    #about {
+        padding-left: 10px;
+        height:80vh;
+    }
+}
+
+/* Smartphones */
+@include mediaSm {
+    #menubtn {
+        /* move to right side */
+        right: 0px;
+        top:0px;
+        margin: 0;
+        border-radius: 0;
+    }
+    .menu-nav {
+        padding-top: 0;
+        right:20;
+    }
+    .menu {
+        width: 100%;
+        height: 100vh;
+        background-color: darken($bgColor, 10%);
+        transform: translate3d(0,-100%,0);
+    }
+    #home {
+        padding-top: 10px;
+        padding-bottom: 150px;
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        #down-arrow {
+            visibility: hidden;
+        }
+    }
+    #about {
+        padding-left: 10px;
+        height:180vh;
+            padding-right:10px;
+            h1{
+                font-size: 25px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 15px;
+                padding: 10px;
+            }
+        #container {
+            padding-left: 0;
+            padding-right:0;
+        }
+        
+    }
+    #banner {
+        padding-bottom:80px;
+        font-size: 13px;
+    }
+    #contact {
+        padding-top: 0;
+        padding-bottom:250px;
+        h1{
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        a {
+            font-size: 15px;
+        }
+        #followheading {
+            font-size: 20px;
+        }
+    }
+
+    footer {
+        padding: 0;
+        margin: 0;
+        height: 35%;
+        p {
+            font-size: 13px;
+        }
+        ul {
+            margin: 0;
+            padding: 10px;
+        }
+    }
+}
+
+/* XSmartphones */
+@include mediaSm {
+    #menubtn {
+        /* move to right side */
+        right: 0px;
+        top:0px;
+        margin: 0;
+        border-radius: 0;
+    }
+    .menu-nav {
+        padding-top: 0;
+        right:20;
+    }
+    .menu {
+        width: 100%;
+        height: 100vh;
+        background-color: darken($bgColor, 10%);
+        transform: translate3d(0,-100%,0);
+    }
+    #home {
+        padding-top: 10px;
+        padding-bottom: 150px;
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        #down-arrow {
+            visibility: hidden;
+        }
+    }
+    #about {
+        padding-left: 10px;
+        height:150vh;
+            padding-right:10px;
+            h1{
+                font-size: 25px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 15px;
+                padding: 10px;
+            }
+        #container {
+            padding-left: 0;
+            padding-right:0;
+        }
+        
+    }
+    #banner {
+        padding-bottom:80px;
+        font-size: 13px;
+    }
+    #contact {
+        padding-top: 0;
+        padding-bottom:300px;
+        h1{
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        a {
+            font-size: 15px;
+        }
+        #followheading {
+            font-size: 20px;
+        }
+    }
+
+    footer {
+        padding: 0;
+        margin: 0;
+        height: 35%;
+        p {
+            font-size: 13px;
+        }
+        ul {
+            margin: 0;
+            padding: 10px;
+        }
+    }
+}

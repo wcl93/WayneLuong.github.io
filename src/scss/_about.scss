@@ -1,0 +1,28 @@
+#about {
+    padding: 40px;
+    text-align: center;
+    background-color: darken(#F5F5F5,3%);
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        color:lighten(#30609A,10%);
+    }
+    #container {
+        text-align: left;
+        padding-left: 20%;
+        padding-right:20%;
+        #skills {
+            width: 50%;
+            text-align: center;
+            display: block;
+            .box {
+                border: solid #000 2px;
+                padding: 10px;
+                margin: 10px;
+                
+            }
+        }
+    }
+
+}

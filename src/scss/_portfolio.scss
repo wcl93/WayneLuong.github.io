@@ -2,5 +2,21 @@
     text-align: center;
     h1 {
         font-size: 40px;
+        font-weight: bold;
+    }
+    #panel {
+        height: 300px;
+        width: 300px;
+        margin: 20px;
+        display: inline-block;
+        background-color: $primaryColor;
+        border-radius: 50%;
+
+        #info{
+            text-align: center;
+            bottom:50%;
+            display: inherit;
+            color:#000;
+        }
     }
 }

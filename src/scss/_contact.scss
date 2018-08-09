@@ -16,13 +16,18 @@
 
     h1 {
         font-size: 40px;
+        font-weight: bold;
     }
     h2 {
-        color:lighten(#30609A,10%);
+        font-weight: bold;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        color:lighten(#30609A,15%);
     }
     #followheading {
         color: #fff;
         font-size: 2rem;
+        font-weight: bold;
     }
     a{
         padding: 20px;

@@ -91,3 +91,8 @@ $(menuItem4).on('click', ()=>{
     $(menuItem3).removeClass('active');
     $(menuItem4).addClass('active');
 });
+
+/* $('a').on('click', function(e){
+    e.preventDefault()
+    alert('clik');
+}) */

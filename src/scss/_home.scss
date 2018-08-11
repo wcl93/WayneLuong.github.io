@@ -10,14 +10,16 @@
     }
     h3 {
         font-size: 30px;
+
     }
     a {
         color: #fff;
         font-size: 30px;
-        padding: 10px 20px 10px 20px;
+        padding: 10px 5px 10px 12px;
         margin: 5px;
         border: #fff solid 3px;
         border-radius: 20%;
+        text-decoration: none;
         &:hover {
             color:$secondaryColor;
             border: $secondaryColor solid 5px;
@@ -28,7 +30,6 @@
         color:lighten(#30609A,10%);
     }
     #down-arrow {
-        border-radius: 50%;
         border: none;
         &:hover{
             color:lighten(#30609A,10%);
@@ -36,7 +37,7 @@
         }
         i {
             animation: translate 2.5s linear infinite; 
-            margin-top:50px;  
+            margin-top: 20vh; 
         }
     }
 }

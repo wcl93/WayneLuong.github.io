@@ -1,22 +1,96 @@
 #portfolio {
+    z-index: 4;
+    padding-left: 20px;
+    padding-right: 20px;
+    .nav-item {
+        color: #4F86C8;
+        font-weight: bold;
+    }
     text-align: center;
     h1 {
         font-size: 40px;
         font-weight: bold;
     }
-    #panel {
+    .panel {
         height: 300px;
         width: 300px;
         margin: 20px;
         display: inline-block;
         background-color: $primaryColor;
+        text-align: center;
         border-radius: 50%;
-
+        #border {
+            padding: 20px;
+        }
+        &:hover {
+            #border {
+                border: #fff solid 2px;
+                @include easeOut;
+            }
+            #info {
+                display: inherit;
+                transform: translate(0,100%);
+                color:#fff;
+                visibility: visible;
+                opacity: 1;
+            }
+        }
         #info{
-            text-align: center;
-            bottom:50%;
-            display: inherit;
-            color:#000;
+            visibility: hidden;
         }
     }
-}
+    #portfolio {
+        background-image: url(../../src/img/portfolio.jpg);
+        background-size:500px;
+        background-position: center;
+        background-repeat: repeat;
+        }
+        #templates {
+            background-image: url(../../src/img/project7-2.png);
+        background-size:500px;
+        background-position: top;
+        background-repeat: repeat;
+        }
+        #invaders {
+            background-image: url(../../src/img/project6-1.jpg);
+        background-size: 490px;
+        background-position: center ;
+        background-repeat: repeat;
+        }
+        #movieapp {
+            background-image: url(../../src/img/Wrapped.png);
+            background-size: 500px;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        #cli {
+            background-image: url(../../src/img/command-line.jpg);
+            background-size: 500px;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        #dateApp {
+            background-image: url(../../src/img/Love-vs-Logic.jpg);
+            background-size: 490px;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        #pizzaApp {
+            background-image: url(../../src/img/GourmetPizzaCo.jpg);
+            background-size: 350px;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        #cueApp {
+            background-image: url(../../src/img/cueclub.jpg);
+            background-size: 480px;
+            background-position: left;
+            background-repeat: repeat;
+        }
+        #psWork {
+            background-image: url(../../src/img/item-6.jpg);
+            background-size: 380px;
+            background-position: left top;
+            background-repeat: repeat;
+        }
+    }

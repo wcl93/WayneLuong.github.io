@@ -14,9 +14,6 @@
 @include mediaLg {
     #home {
         height: 100vh;
-        #down-arrow {
-            visibility: hidden;
-        }
     }
     #about {
         padding-left: 10px;
@@ -53,9 +50,6 @@
     #home {
         height: 100vh;
         h1 {margin-top: 0px; }
-        #down-arrow {
-            visibility: hidden;
-        }
     }
     #about {
         padding-left: 10px;
@@ -100,9 +94,6 @@
         }
         h3 {
             font-size: 20px;
-        }
-        #down-arrow {
-            visibility: hidden;
         }
     }
     #about {
@@ -168,7 +159,7 @@
 }
 
 /* XSmartphones */
-@include mediaSm {
+@include mediaXS {
     #menubtn {
         /* move to right side */
         right: 0px;
@@ -194,9 +185,6 @@
         }
         h3 {
             font-size: 20px;
-        }
-        #down-arrow {
-            visibility: hidden;
         }
     }
     #about {

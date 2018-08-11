@@ -17,11 +17,13 @@
     height: 200px;
     position: relative;
     left:50%;
+    top: 50%;
     transform: translate(-50%,-80%);
     #logo{
-        transform: translate(31%,170%);
+        transform: translate(31%,145%);
         font-size: 70px;
         font-weight: bold;
+        z-index: 10;
         font-family: $mainfont
     }
 

@@ -4,7 +4,6 @@ $secondaryColor: lighten(#9B2948, 15%);
 $mainfont: Raleway, sans-serif;
 $secondaryFont: sans-serif;
 
-
 body {
     color:$primaryColor;
     font-family: $mainfont;
@@ -13,6 +12,11 @@ body {
     margin: 0;
     scroll-behavior: smooth;
     overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+a {
+    cursor: pointer;
 }
 
 span {
@@ -20,6 +24,9 @@ span {
 }
 hr {
     width: 25%;
+}
+.modal {
+    color:#000;
 }
 #home {
     /* Parallax */
@@ -31,7 +38,7 @@ hr {
     background-attachment: fixed;
     position: relative;
     z-index: 0;
-    height: 90vh;
+    height: 100vh;
     text-align: center;
     padding-top: 20vh;
 }
@@ -74,8 +81,9 @@ hr {
     font-family: $secondaryFont;
 }
 #portfolio {
-    height: 100%;
+
     background-color: #0d161f;
+
 }
 
 #contact {

@@ -95,3 +95,75 @@ $(menuItem4).on('click', () => {
     e.preventDefault()
     alert('clik');
 }) */
+
+/* Scroll Reveal */
+
+window.sr = ScrollReveal();
+sr.reveal('#home h1', {
+    duration: 2000,
+    origin: 'top'
+});
+sr.reveal('#home h2', {
+    duration: 2000,
+    origin: 'top'
+});
+sr.reveal('#home h3', {
+    duration: 5000,
+    origin: 'left',
+    delay: 1000
+});
+sr.reveal('#home a', {
+    duration: 5000,
+    origin: 'left',
+    delay: 1500,
+});
+sr.reveal('#about h1', {
+    duration: 2000,
+    origin: 'right',
+    viewFactor: 0.2
+});
+sr.reveal('#about h2', {
+    duration: 2500,
+    origin: 'right',
+    viewFactor: 0.2
+});
+sr.reveal('#about p', {
+    duration: 2500,
+    origin: 'right',
+    delay: 500,
+    viewFactor: 0.2
+});
+sr.reveal('#container', {
+    duration: 2500,
+    origin: 'right',
+    delay: 1000,
+    viewFactor: 0.2
+});
+sr.reveal('#banner h2', {
+    duration: 2500,
+    origin: 'right',
+    delay: 1000,
+    viewFactor: 0.2
+});
+sr.reveal('#portfolio h1', {
+    duration: 2000,
+    origin: 'right',
+    viewFactor: 0.2
+});
+sr.reveal('#contact h1', {
+    duration: 2000,
+    origin: 'right',
+    viewFactor: 0.2
+});
+sr.reveal('#contact h2', {
+    duration: 2000,
+    delay: 500,
+    origin: 'right',
+    viewFactor: 0.2
+});
+sr.reveal('#contact a', {
+    duration: 2000,
+    delay:1000,
+    origin: 'right',
+    viewFactor: 0.2
+});

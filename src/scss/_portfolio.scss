@@ -2,6 +2,7 @@
     z-index: 4;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 60px;
     .nav-item {
         color: #4F86C8;
         font-weight: bold;
@@ -10,7 +11,11 @@
     h1 {
         font-size: 40px;
         font-weight: bold;
+        color:#000;
     }
+    
+    
+    
     .panel {
         height: 300px;
         width: 300px;
@@ -19,6 +24,19 @@
         background-color: $primaryColor;
         text-align: center;
         border-radius: 50%;
+        border: solid gray 1px;
+        .overlay {
+            opacity: 0;
+        }
+        &:hover .overlay {
+            opacity: 0.5;
+            border-radius: 50%;
+            height: 100%;
+            position: relative;
+            background-color: #000;
+            overflow:hidden;
+            transition: 0.5s ease-in;
+        }
         #border {
             padding: 20px;
         }
@@ -31,8 +49,10 @@
                 display: inherit;
                 transform: translate(0,100%);
                 color:#fff;
+                 background-color: 	rgba(169,169,169,0.7);
                 visibility: visible;
                 opacity: 1;
+                animation: fadeIn 0.8s;
             }
         }
         #info{
@@ -92,5 +112,14 @@
             background-size: 380px;
             background-position: left top;
             background-repeat: repeat;
+        }
+    }
+
+    @keyframes fadeIn {
+         from {
+             opacity: 0;
+         }
+        to {
+            opacity: 1;
         }
     }

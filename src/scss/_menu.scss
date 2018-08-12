@@ -8,7 +8,7 @@
     opacity: 0.8;
     /* move to right side */
     right: 35px;
-    top:35px;
+    top: 35px;
     border-radius: 20%;
     @include easeOut;
     #btnline {
@@ -17,7 +17,6 @@
         background-color: #fff;
         margin: 0 0 5px 0;
     }
-
     /* transforming menubtn */
     &.close {
         z-index: 5;
@@ -25,16 +24,16 @@
         @include easeOut;
         #btnline {
             /* line 1 */
-            &:nth-child(1){
-                transform: rotate(45deg) translate(5px,5px);
+            &:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
             }
             /* line 2 */
-            &:nth-child(2){
+            &:nth-child(2) {
                 opacity: 0;
             }
             /* line 3 */
-            &:nth-child(3){
-                transform: rotate(-45deg) translate(6.2px,-6px);
+            &:nth-child(3) {
+                transform: rotate(-45deg) translate(6.2px, -6px);
             }
         }
     }
@@ -44,7 +43,7 @@
     @include easeOut;
     z-index: 3;
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
     width: 30%;
     height: 100vh;
@@ -52,13 +51,13 @@
     background-color: darken($bgColor, 10%);
     visibility: hidden;
     overflow: hidden;
-    transform: translate3d(100%,0,0);
-/*     align-items: center;
+    transform: translate3d(100%, 0, 0);
+    /*     align-items: center;
     justify-content: center; */
     h1 {
-        font-size:50px;
+        font-size: 50px;
         font-weight: bold;
-/*         border: #fff solid 2px; */
+        /*         border: #fff solid 2px; */
         cursor: default;
     }
     ul {
@@ -67,7 +66,7 @@
         text-align: center;
         position: fixed;
         list-style-type: none;
-        a{
+        a {
             text-decoration: none;
             display: inline-block;
             color: $primaryColor;
@@ -81,22 +80,15 @@
             }
         }
     }
-   
     .active {
         color: $secondaryColor;
     }
-
     &.show {
         visibility: visible;
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
         @include easeOut;
     }
     &-nav {
         padding-top: 30vh;
     }
 }
-
-
-
-
-

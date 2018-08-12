@@ -1,17 +1,16 @@
 #about {
     padding: 40px;
     text-align: center;
-    background-color: darken(#F5F5F5,3%);
+    background-color: darken(#F5F5F5, 3%);
     h1 {
         font-size: 40px;
         font-weight: bold;
     }
     h2 {
-        color:lighten(#30609A,10%);
+        color: lighten(#30609A, 10%);
     }
     #container {
         text-align: center;
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         h3 {
@@ -24,5 +23,4 @@
             grid-column: 2/2;
         }
     }
-
 }

@@ -11,10 +11,8 @@
     h1 {
         font-size: 40px;
         font-weight: bold;
-        color:#000;
+        color: #000;
     }
-    
-
     .panel {
         height: 300px;
         width: 300px;
@@ -33,7 +31,7 @@
             height: 100%;
             position: relative;
             background-color: #000;
-            overflow:hidden;
+            overflow: hidden;
             transition: 0.5s ease-in;
         }
         #border {
@@ -46,79 +44,87 @@
             }
             #info {
                 display: inherit;
-                transform: translate(0,100%);
-                color:#fff;
-                 background-color: 	rgba(169,169,169,0.7);
+                transform: translate(0, 100%);
+                color: #fff;
+                background-color: rgba(169, 169, 169, 0.7);
                 visibility: visible;
                 opacity: 1;
                 animation: fadeIn 0.8s;
             }
         }
-        #info{
+        #info {
             visibility: hidden;
         }
     }
     #portfolio {
-        background-image: url(../../src/img/portfolio.jpg);
-        background-size:500px;
+        background-image: url(../../src/img/portfolio-min.jpg);
+        background-size: 500px;
         background-position: center;
         background-repeat: repeat;
-        }
-        #templates {
-            background-image: url(../../src/img/project7-2.png);
-        background-size:500px;
+    }
+    #templates {
+        background-image: url(../../src/img/project7-2-min.png);
+        background-size: 500px;
         background-position: top;
         background-repeat: repeat;
-        }
-        #invaders {
-            background-image: url(../../src/img/project6-1.jpg);
+    }
+    #invaders {
+        background-image: url(../../src/img/project6-1-min.jpg);
         background-size: 490px;
-        background-position: center ;
+        background-position: center;
         background-repeat: repeat;
-        }
-        #movieapp {
-            background-image: url(../../src/img/Wrapped.png);
-            background-size: 500px;
-            background-position: center;
-            background-repeat: repeat;
-        }
-        #cli {
-            background-image: url(../../src/img/command-line.jpg);
-            background-size: 500px;
-            background-position: center;
-            background-repeat: repeat;
-        }
-        #dateApp {
-            background-image: url(../../src/img/Love-vs-Logic.jpg);
-            background-size: 490px;
-            background-position: center;
-            background-repeat: repeat;
-        }
-        #pizzaApp {
-            background-image: url(../../src/img/GourmetPizzaCo.jpg);
-            background-size: 350px;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        #cueApp {
-            background-image: url(../../src/img/cueclub.jpg);
-            background-size: 480px;
-            background-position: left;
-            background-repeat: repeat;
-        }
-        #psWork {
-            background-image: url(../../src/img/item-6.jpg);
-            background-size: 370px;
-            background-position: center top;
-            background-repeat: repeat;
-        }
     }
+    #movieapp {
+        background-image: url(../../src/img/Wrapped-min.png);
+        background-size: 500px;
+        background-position: center;
+        background-repeat: repeat;
+    }
+    #cli {
+        background-image: url(../../src/img/command-line-min.jpg);
+        background-size: 500px;
+        background-position: center;
+        background-repeat: repeat;
+    }
+    #dateApp {
+        background-image: url(../../src/img/Love-vs-Logic-min.jpg);
+        background-size: 490px;
+        background-position: center;
+        background-repeat: repeat;
+    }
+    #pizzaApp {
+        background-image: url(../../src/img/GourmetPizzaCo-min.jpg);
+        background-size: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #cueApp {
+        background-image: url(../../src/img/cueclub-min.jpg);
+        background-size: 480px;
+        background-position: left;
+        background-repeat: repeat;
+    }
+    #psWork {
+        background-image: url(../../src/img/item-6-min.jpg);
+        background-size: 370px;
+        background-position: center top;
+        background-repeat: repeat;
+    }
+}
 
-    @keyframes fadeIn {
-         from {
-             opacity: 0;
-         }
-        to {
-            opacity: 1;
-        }
+.carousel-indicators .active {
+    background-color: #3C78C1;
+}
+
+.carousel-indicators li {
+    background-color: lighten(gray, 10%);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
+    to {
+        opacity: 1;
+    }
+}

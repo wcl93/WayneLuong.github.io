@@ -2,7 +2,7 @@
     text-align: center;
     z-index: 1;
     font-family: $secondaryFont;
-/*     form > * {
+    /*     form > * {
         display:block;
         margin: 20px;
 
@@ -13,7 +13,6 @@
             color: #fff;
         }
     } */
-
     h1 {
         font-size: 40px;
         font-weight: bold;
@@ -22,30 +21,29 @@
         font-weight: bold;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
-        color:lighten(#30609A,15%);
+        color: lighten(#30609A, 15%);
     }
     #followheading {
         color: #fff;
         font-size: 2rem;
         font-weight: bold;
     }
-    a{
+    a {
         padding: 20px;
         display: inline-block;
         color: #fff;
         text-decoration: none;
         font-weight: bold;
         text-transform: uppercase;
-        p{
+        p {
             display: inline;
             padding-left: 1rem;
         }
-        
     }
     .fas {
         font-size: 40px;
         color: #fff;
-        &:hover{
+        &:hover {
             color: $secondaryColor;
             @include easeOut;
         }
@@ -53,10 +51,9 @@
     .fab {
         font-size: 40px;
         color: #fff;
-        &:hover{
+        &:hover {
             color: $secondaryColor;
             @include easeOut;
-
         }
     }
 }

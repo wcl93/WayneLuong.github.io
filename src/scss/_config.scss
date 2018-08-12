@@ -1,11 +1,11 @@
 $bgColor :#0d161f;
 $primaryColor: #fff;
 $secondaryColor: lighten(#9B2948, 15%);
-$mainfont: Raleway, sans-serif;
+$mainfont: Raleway,
+sans-serif;
 $secondaryFont: sans-serif;
-
 body {
-    color:$primaryColor;
+    color: $primaryColor;
     font-family: $mainfont;
     text-decoration: none;
     padding: 0;
@@ -22,16 +22,19 @@ a {
 span {
     color: $secondaryColor;
 }
+
 hr {
     width: 25%;
 }
+
 .modal {
-    color:#000;
+    color: #000;
 }
+
 #home {
     /* Parallax */
     cursor: default;
-    background-image: url(../../src/img/Chinese-lanterns.jpg);
+    background-image: url(../../src/img/Chinese-lanterns-min.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -46,19 +49,18 @@ hr {
 #overlay {
     position: absolute;
     /* Overlay */
-/*     background-color: rgba(0,0,0,0.5); */
+    /*     background-color: rgba(0,0,0,0.5); */
     background-image: url(../../src/img/pattern.png);
-    top:0;
+    top: 0;
     bottom: 0;
     height: 100%;
     width: 100%;
     z-index: -1;
 }
 
-
 #about {
     height: 70vh;
-    color:#000;
+    color: #000;
     background-color: #fff;
     font-family: $secondaryFont;
     line-height: 24px;
@@ -66,7 +68,7 @@ hr {
 
 #banner {
     /* Parallax */
-    background-image: url(../../src/img/Chinese-lanterns.jpg);
+    background-image: url(../../src/img/Chinese-lanterns-min.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 25%;
@@ -80,23 +82,22 @@ hr {
     line-height: 30px;
     font-family: $secondaryFont;
 }
+
 #portfolio {
-
     background-color: #EDEDED;
-
 }
 
 #contact {
-      /* Parallax */
-      background-image: url(../../src/img/Chinese-lanterns.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      height: 80vh;
-      background-position: center center;
-      background-size: cover;
-      background-attachment: fixed;
-      position: relative;
-      z-index: -2;
+    /* Parallax */
+    background-image: url(../../src/img/Chinese-lanterns-min.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -2;
 }
 
 footer {
@@ -106,4 +107,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-

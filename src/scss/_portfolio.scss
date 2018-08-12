@@ -40,6 +40,8 @@
         &:hover {
             #border {
                 border: #fff solid 2px;
+                transform: rotateY(360deg);
+                transition: linear 0.5s;
                 @include easeOut;
             }
             #info {
@@ -49,7 +51,7 @@
                 background-color: rgba(169, 169, 169, 0.7);
                 visibility: visible;
                 opacity: 1;
-                animation: fadeIn 0.8s;
+                animation: fadeIn 1.5s;
             }
         }
         #info {

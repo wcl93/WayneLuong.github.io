@@ -99,7 +99,7 @@
             background-image: url(../../src/img/GourmetPizzaCo.jpg);
             background-size: 350px;
             background-position: center;
-            background-repeat: repeat;
+            background-repeat: no-repeat;
         }
         #cueApp {
             background-image: url(../../src/img/cueclub.jpg);
@@ -109,8 +109,8 @@
         }
         #psWork {
             background-image: url(../../src/img/item-6.jpg);
-            background-size: 380px;
-            background-position: left top;
+            background-size: 370px;
+            background-position: center top;
             background-repeat: repeat;
         }
     }

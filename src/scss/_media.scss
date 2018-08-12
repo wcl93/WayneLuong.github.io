@@ -1,6 +1,9 @@
 /* Widescreens */
 
 @include mediaXL {
+    #about {
+        height: fit-content;
+    }
     #banner {
         font-size: 20px;
         height: fit-content;
@@ -152,6 +155,11 @@
             padding-right: 0;
             display: block;
         }
+        #container2 {
+            padding-left: 0px;
+            padding-right: 0px;
+            display: block;
+        }
     }
     #banner {
         height: fit-content;
@@ -245,6 +253,12 @@
         #container {
             padding-left: 0;
             padding-right: 0;
+            display: block;
+        }
+        #container2 {
+            padding-left: 0px;
+            padding-right: 0px;
+            display: block;
         }
     }
     #banner {

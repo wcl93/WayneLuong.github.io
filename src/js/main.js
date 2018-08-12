@@ -139,6 +139,12 @@ sr.reveal('#container', {
     delay: 1000,
     viewFactor: 0.2
 });
+sr.reveal('#container2', {
+    duration: 2500,
+    origin: 'right',
+    delay: 1500,
+    viewFactor: 0.2
+});
 sr.reveal('#banner h2', {
     duration: 2500,
     origin: 'right',

@@ -108,17 +108,17 @@ sr.reveal('#home h2', {
     origin: 'top'
 });
 sr.reveal('#home h3', {
-    duration: 5000,
+    duration: 4000,
     origin: 'left',
     delay: 1000
 });
 sr.reveal('#home a', {
-    duration: 5000,
+    duration: 4000,
     origin: 'left',
     delay: 1500,
 });
 sr.reveal('#about h1', {
-    duration: 2000,
+    duration: 1000,
     origin: 'right',
     viewFactor: 0.2
 });
@@ -128,31 +128,36 @@ sr.reveal('#about h2', {
     viewFactor: 0.2
 });
 sr.reveal('#about p', {
-    duration: 2500,
+    duration: 1500,
     origin: 'right',
     delay: 500,
     viewFactor: 0.2
 });
 sr.reveal('#container', {
-    duration: 2500,
+    duration: 1500,
     origin: 'right',
     delay: 1000,
     viewFactor: 0.2
 });
 sr.reveal('#container2', {
-    duration: 2500,
+    duration: 1500,
     origin: 'right',
-    delay: 1500,
+    delay: 1000,
     viewFactor: 0.2
 });
 sr.reveal('#banner h2', {
     duration: 2500,
     origin: 'right',
-    delay: 1000,
     viewFactor: 0.2
 });
 sr.reveal('#portfolio h1', {
     duration: 2000,
+    origin: 'right',
+    viewFactor: 0.2
+});
+sr.reveal('#portfolio nav', {
+    duration: 2000,
+    delay:1000,
     origin: 'right',
     viewFactor: 0.2
 });
